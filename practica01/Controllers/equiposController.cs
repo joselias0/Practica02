@@ -75,7 +75,7 @@ namespace practica01.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPut]
         [Route("update/{id}")]
 
         public IActionResult update(int id,[FromBody] equipos equiposActualizar) 
