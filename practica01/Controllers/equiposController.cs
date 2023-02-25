@@ -112,12 +112,5 @@ namespace practica01.Controllers
             return Ok(equipo);
 
         }
-
-
-
-
-
-
-
     }
 }
