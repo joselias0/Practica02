@@ -15,6 +15,7 @@ namespace practica01.Controllers
             _equiposContexto = equiposContexto;
         }
 
+
         [HttpGet]
         [Route("GetAll")]
         public IActionResult Get()
